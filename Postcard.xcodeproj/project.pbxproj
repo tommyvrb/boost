@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A306CE19E31CE300890481 /* flirt 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A306CD19E31CE300890481 /* flirt 3.jpg */; };
+		25A306D019E332BC00890481 /* done code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A306CF19E332BC00890481 /* done code.jpg */; };
 		25D726BF19E1C2C900892CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D726BE19E1C2C900892CB0 /* AppDelegate.swift */; };
 		25D726C119E1C2C900892CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D726C019E1C2C900892CB0 /* ViewController.swift */; };
 		25D726C419E1C2C900892CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D726C219E1C2C900892CB0 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25A306CD19E31CE300890481 /* flirt 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flirt 3.jpg"; sourceTree = "<group>"; };
+		25A306CF19E332BC00890481 /* done code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "done code.jpg"; sourceTree = "<group>"; };
 		25D726B919E1C2C900892CB0 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D726BD19E1C2C900892CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D726BE19E1C2C900892CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		25D726BC19E1C2C900892CB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25A306CF19E332BC00890481 /* done code.jpg */,
+				25A306CD19E31CE300890481 /* flirt 3.jpg */,
 				25D726BD19E1C2C900892CB0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				25D726C419E1C2C900892CB0 /* Main.storyboard in Resources */,
 				25D726C919E1C2C900892CB0 /* LaunchScreen.xib in Resources */,
+				25A306D019E332BC00890481 /* done code.jpg in Resources */,
+				25A306CE19E31CE300890481 /* flirt 3.jpg in Resources */,
 				25D726C619E1C2C900892CB0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,9 +356,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +417,7 @@
 				25D726DA19E1C2C900892CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25D726DB19E1C2C900892CB0 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				25D726DD19E1C2C900892CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
